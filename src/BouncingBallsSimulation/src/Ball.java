@@ -5,7 +5,8 @@ import java.util.Random;
 public class Ball {
 	private static Random r = new Random();
 	private double rx, ry; // position
-	private double vx, vy; // velocity
+	private double vx, vy;
+	private double vx, vy; 
 	private final double radius; // radius
 	private Color color;
 
